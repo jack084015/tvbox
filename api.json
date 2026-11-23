@@ -1,0 +1,855 @@
+{
+  "spider": "https://gitee.com/cycod/tvbox/raw/master/spider.jar;md5;15be1c429da1d3e92d1a06206b205bba",
+  "logo": "https://q1.qlogo.cn/g?b=qq&nk=1838555724&s=640",
+  "sites": [
+    {
+      "key": "cy_douban_search",
+      "name": "初忆的q群761833781┃豆瓣搜索",
+      "type": 3,
+      "api": "csp_DoubanSearch",
+      "group": "预告片",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_douban",
+      "name": "初忆┃豆瓣荐片",
+      "type": 3,
+      "api": "csp_Douban",
+      "group": "预告片",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_about",
+      "name": "初忆┃关于",
+      "type": 3,
+      "api": "csp_About",
+      "group": "关于",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "api_version": "v88"
+      }
+    },
+    {
+      "key": "cy_fourkmp",
+      "name": "初忆┃4KMP",
+      "type": 3,
+      "api": "csp_FourKMP",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_sikv4k",
+      "name": "初忆┃4K影视",
+      "type": 3,
+      "api": "csp_SiKv4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_fengye4k",
+      "name": "初忆┃枫叶4K",
+      "type": 3,
+      "api": "csp_Fengqi4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_gulu",
+      "name": "初忆┃咕噜4K",
+      "type": 3,
+      "api": "csp_Gulu",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_hetun",
+      "name": "初忆┃河豚4K",
+      "type": 3,
+      "api": "csp_Hetun",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_juxiafan",
+      "name": "初忆┃剧下饭4K",
+      "type": 3,
+      "api": "csp_JuXiaFan",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_piandi",
+      "name": "初忆┃片帝4K",
+      "type": 3,
+      "api": "csp_Piandi",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_weilai4k",
+      "name": "初忆┃未来4K",
+      "type": 3,
+      "api": "csp_WeiLai4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_yingtan",
+      "name": "初忆┃影探4K",
+      "type": 3,
+      "api": "csp_Yingtan",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_yidong4k",
+      "name": "初忆┃移动4K",
+      "type": 3,
+      "api": "csp_Yidong4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_bili4k",
+      "name": "初忆┃哔哩4K",
+      "type": 3,
+      "api": "csp_Bili4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_mino",
+      "name": "初忆┃MiNO秒播4K",
+      "type": 3,
+      "api": "csp_MiNO",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_wupingtai",
+      "name": "初忆┃官方聚合",
+      "type": 3,
+      "api": "csp_WuPingTai",
+      "group": "聚合工具",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_kishuto",
+      "name": "初忆┃4K聚合",
+      "type": 3,
+      "api": "csp_Kishuto",
+      "group": "聚合工具",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_pansearch",
+      "name": "初忆┃木偶",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "group": "聚合工具",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_daishu",
+      "name": "初忆┃袋鼠影视",
+      "type": 3,
+      "api": "csp_DaiShu",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_dbku",
+      "name": "初忆┃独播库",
+      "type": 3,
+      "api": "csp_Dbku",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_dsx",
+      "name": "初忆┃大师兄影视",
+      "type": 3,
+      "api": "csp_DsxApp",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_duoduo",
+      "name": "初忆┃多多影视",
+      "type": 3,
+      "api": "csp_DuoDuo",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_gz",
+      "name": "初忆┃瓜子影视",
+      "type": 3,
+      "api": "csp_GZ",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_huayi",
+      "name": "初忆┃华谊影视",
+      "type": 3,
+      "api": "csp_HuaYi",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_jianpian",
+      "name": "初忆┃荐片影视",
+      "type": 3,
+      "api": "csp_JianPian",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_jbd",
+      "name": "初忆┃金牌影视",
+      "type": 3,
+      "api": "csp_JBD",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_juzhi",
+      "name": "初忆┃橘汁影视",
+      "type": 3,
+      "api": "csp_JuZhi",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_luoxue",
+      "name": "初忆┃洛雪TV",
+      "type": 3,
+      "api": "csp_LuoXueTV",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_nongmin",
+      "name": "初忆┃农民影视",
+      "type": 3,
+      "api": "csp_NongMin",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_rejutv",
+      "name": "初忆┃热剧TV",
+      "type": 3,
+      "api": "csp_ReJuTV",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_saohuo",
+      "name": "初忆┃骚火影视",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "group": "综合影视",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "cy_tegou",
+      "name": "初忆┃特狗影视",
+      "type": 3,
+      "api": "csp_Tegou",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_yunbo",
+      "name": "初忆┃TVB云播",
+      "type": 3,
+      "api": "csp_Yunbo",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_yunbo808",
+      "name": "初忆┃云播",
+      "type": 3,
+      "api": "csp_YunBo",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_kanju",
+      "name": "初忆┃看剧AI",
+      "type": 3,
+      "api": "csp_KanjuAI",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_yunzhenxiang",
+      "name": "初忆┃云帧享",
+      "type": 3,
+      "api": "csp_YunZhenXiang",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_qiwei",
+      "name": "初忆┃七味",
+      "type": 3,
+      "api": "csp_QiWei",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_hqdianbo",
+      "name": "初忆┃高清点播",
+      "type": 3,
+      "api": "csp_HQDianBo",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_wabibabu",
+      "name": "初忆┃歪比巴卜",
+      "type": 3,
+      "api": "csp_WaBiBaBu",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_bubu",
+      "name": "初忆┃布布",
+      "type": 3,
+      "api": "csp_BuBu",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_wangfei",
+      "name": "初忆┃网飞TV",
+      "type": 3,
+      "api": "csp_WfTV",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_yingxiang",
+      "name": "初忆┃映像星球",
+      "type": 3,
+      "api": "csp_YingXiang",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_zjdr",
+      "name": "初忆┃追剧达人",
+      "type": 3,
+      "api": "csp_Zjdr",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_xpg",
+      "name": "初忆┃小苹果",
+      "type": 3,
+      "api": "csp_Xpg",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_xiaoji",
+      "name": "初忆┃小鸡看看",
+      "type": 3,
+      "api": "csp_Xiaoji",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_xinshixun",
+      "name": "初忆┃新视讯",
+      "type": 3,
+      "api": "csp_XinShiXun",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filter": null,
+      "group": "综合影视"
+    },
+    {
+      "key": "cy_hongguo",
+      "name": "初忆┃红果短剧",
+      "type": 3,
+      "api": "csp_HongGuo",
+      "group": "短剧",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_nfgc",
+      "name": "初忆┃奈飞工厂",
+      "type": 3,
+      "api": "csp_Nfgc",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cy_dmghg",
+      "name": "初忆┃共和动漫",
+      "type": 3,
+      "api": "csp_Dmghg",
+      "group": "动漫",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_dmbs",
+      "name": "初忆┃动漫巴士",
+      "type": 3,
+      "api": "csp_DongManBaShi",
+      "group": "动漫",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_xifan",
+      "name": "初忆┃稀饭动漫",
+      "type": 3,
+      "api": "csp_Xifan",
+      "group": "动漫",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_girigiri",
+      "name": "初忆┃GiriGiri爱动漫",
+      "type": 3,
+      "api": "csp_Girigiri",
+      "group": "动漫",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_agekkk",
+      "name": "初忆┃4K动漫",
+      "type": 3,
+      "api": "csp_AgeKKK",
+      "group": "动漫",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "lives": [
+    {
+      "name": "我的直播源",
+      "type": 0,
+      "url": "https://jack084015.github.io/iptv-api/result.m3u",
+      "playerType": 1,
+      "epg": ""
+    }
+  ],
+  "parses": [
+    {
+      "name": "4K解析",
+      "type": "1",
+      "url": "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=gKZXJs5f&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇异",
+          "iqiyi",
+          "youku",
+          "优酷",
+          "bilibili",
+          "哔哩哔哩",
+          "yk",
+          "mgtv",
+          "芒果"
+        ]
+      }
+    },
+    {
+      "name": "极速解析",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "备用解析",
+      "type": 0,
+      "url": "https://jiexi.789jiexi.com/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "cntv",
+    "xigua",
+    "douyin"
+  ],
+  "ijk": [
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-all-videos",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-sync",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "packet-buffering",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "5"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "2"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "8"
+        },
+        {
+          "category": 2,
+          "name": "skip_frame",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "sync-audio",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "packet-buffering",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "5"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "2"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "16"
+        },
+        {
+          "category": 2,
+          "name": "skip_frame",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "sync-audio",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com"
+  ]
+}
